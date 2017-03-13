@@ -1,0 +1,241 @@
+{
+  "me.html": {
+    "href": "me.html",
+    "resources": [
+      "css/mui.css",
+      "js/mui.min.js",
+      "images/icon\rdownload.png",
+      "images/icon\rstore.png",
+      "images/icon\rý\u0016.png",
+      "images/user\rdwn.png",
+      "images/?ý.png",
+      "images/xý.png",
+      "images/f`.png",
+      "images/service.png",
+      "images/icon\rdownload.png",
+      "images/icon\rstore.png",
+      "images/icon\rý\u0016.png",
+      "images/user\rdwn.png",
+      "images/?ý.png",
+      "images/xý.png",
+      "images/f`.png",
+      "images/4ý.png",
+      "images/4ý.png",
+      "images/user-dwn.png",
+      "images/icon-post.png",
+      "images/head.png",
+      "booklist.html"
+    ],
+    "refer": [
+      "promote.html",
+      "model.html",
+      "study.html",
+      "service.html"
+    ],
+    "priority": 0
+  },
+  "service.html": {
+    "href": "service.html",
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.css",
+      "images/\u0007ý.png",
+      "images/service\rdwn.png",
+      "images/icon\rýf.png",
+      "images/icon\r!ý.png",
+      "images/icon\rYý.png",
+      "images/?ý.png",
+      "images/xý.png",
+      "images/f`.png",
+      "images/user.png",
+      "images/\u0007ý.png",
+      "images/service\rdwn.png",
+      "images/icon\rýf.png",
+      "images/icon\r!ý.png",
+      "images/icon\rYý.png",
+      "images/?ý.png",
+      "images/xý.png",
+      "images/f`.png",
+      "images/icon\r:ý.png",
+      "images/icon\rýý\u0007W.png",
+      "images/eZA\u000b.png",
+      "images/icon\r:ý.png",
+      "images/icon\rýý\u0007W.png",
+      "images/eZA\u000b.png",
+      "images/icon-bus-dwn.png",
+      "images/icon-jiaowu.png",
+      "images/icon-schoolcalendar.png",
+      "images/icon-index.png",
+      "images/icon-institution.png",
+      "images/flow.png",
+      "images/down.png",
+      "images/service-dwn.png",
+      "images/up.png",
+      "images/icon-jiaowu-dwn.png",
+      "images/icon-schoolcalendar-dwn.png",
+      "images/icon-bus.png",
+      "images/icon-institution-dwn.png",
+      "images/promote.png"
+    ],
+    "refer": [
+      "promote.html",
+      "model.html",
+      "study.html",
+      "me.html"
+    ],
+    "priority": 0
+  },
+  "study.html": {
+    "href": "study.html",
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.css",
+      "images/\u0007ý.png",
+      "images/f`\rdwn.png",
+      "images/icon\r:ý.png",
+      "images/icon\r5Pýý.png",
+      "images/icon\rý\u0006ý.png",
+      "images/?ý.png",
+      "images/xý.png",
+      "images/service.png",
+      "images/user.png",
+      "images/\u0007ý.png",
+      "images/f`\rdwn.png",
+      "images/icon\r:ý.png",
+      "images/icon\r5Pýý.png",
+      "images/icon\rý\u0006ý.png",
+      "images/?ý.png",
+      "images/xý.png",
+      "images/icon\rý\u0006ý.png",
+      "images/icon\rdownload.png",
+      "images/icon\rstore \rdwn.png",
+      "images/ýf.png",
+      "images/icon\rdownload.png",
+      "images/icon\rstore \rdwn.png",
+      "images/ýf.png",
+      "images/icon-share.png",
+      "images/icon-courseware.png",
+      "images/icon-house-dwn.png",
+      "images/study-dwn.png",
+      "images/icon-house.png",
+      "images/icon-share-dwn.png",
+      "images/icon-coursware-dwn.png"
+    ],
+    "refer": [
+      "promote.html",
+      "model.html",
+      "service.html",
+      "me.html"
+    ],
+    "priority": 0
+  },
+  "model.html": {
+    "href": "model.html",
+    "resources": [
+      "js/mui.min.js",
+      "css/mui.css",
+      "images/\u0007ý.png",
+      "images/xý\rdwn.png",
+      "images/icon\rH\u000bY\b.png",
+      "images/icon\r\u0018ýfP.png",
+      "images/?ý.png",
+      "images/f`.png",
+      "images/service.png",
+      "images/user.png",
+      "images/\u0007ý.png",
+      "images/xý\rdwn.png",
+      "images/icon\rH\u000bY\b.png",
+      "images/icon\r\u0018ýfP.png",
+      "images/?ý.png",
+      "images/f`.png",
+      "images/ýf1.png",
+      "images/ýf1.png",
+      "images/icon-student-dwn.png",
+      "book.html",
+      "images/icon-teacher.png",
+      "images/promote.png",
+      "images/model-dwn.png",
+      "images/icon-student.png",
+      "images/icon-teacher-dwn.png",
+      "images/book1.png"
+    ],
+    "refer": [
+      "promote.html",
+      "study.html",
+      "service.html",
+      "me.html"
+    ],
+    "priority": 0
+  },
+  "promote.html": {
+    "href": "promote.html",
+    "resources": [
+      "css/mui.css",
+      "js/mui.min.js",
+      "images/\u0007ý.png",
+      "images/?ý\rdwn.png",
+      "images/icon\rýrý..png",
+      "images/icon\rAýU.png",
+      "images/xý.png",
+      "images/f`.png",
+      "images/service.png",
+      "images/user.png",
+      "images/\u0007ý.png",
+      "images/?ý\rdwn.png",
+      "images/icon\rýrý..png",
+      "images/icon\rAýU.png",
+      "images/xý.png",
+      "images/f`.png",
+      "fonts/mui.ttf",
+      "images/icon\rAýU.png",
+      "images/ýf.png",
+      "images/ýf.png",
+      "images/icon-importantspeak-dwn.png",
+      "images/icon-books-dwn.png",
+      "images/header.png",
+      "search.html",
+      "images/icon-importantspeak.png",
+      "images/book.png",
+      "images/promote-dwn.png",
+      "images/icon-books.png",
+      "images/model.png",
+      "images/study.png",
+      "images/icon-890.png"
+    ],
+    "refer": [
+      "model.html",
+      "study.html",
+      "service.html",
+      "me.html"
+    ],
+    "priority": 0
+  },
+  "search.html": {
+    "resources": [
+      "promote.html",
+      "images/icon-search.png"
+    ],
+    "refer": [
+      "promote.html"
+    ]
+  },
+  "book.html": {
+    "resources": [
+      "images/icon-store.png",
+      "model.html",
+      "images/icon-download.png",
+      "images/icon-store-dwn.png"
+    ],
+    "refer": [
+      "model.html"
+    ]
+  },
+  "booklist.html": {
+    "resources": [
+      "me.html"
+    ],
+    "refer": [
+      "me.html"
+    ]
+  }
+}

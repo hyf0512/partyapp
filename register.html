@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+	<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			function changecolor(){
+				var zb=document.getElementById("szdzb").value;
+				if(zb){
+					document.getElementById("szdzb").style.color="#000000";
+				}
+				else{
+					document.getElementById("szdzb").style.color="#8F8F94";
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+		<a class="mui-action-back mui-icon mui-icon-back"></a>
+			<p align="center" style="margin-top: -30px;"><img src="images/header.png" height="20px"/></p>
+		</header>
+		<p></p>
+			<div class="mui-content" align="center" style="padding-top: 100px;">
+
+				<p style="text-align: center;">
+					<img src="images/logo.png"  width="110" height="110"/>
+				</p>
+				<div style="padding-top: 20px;">
+			<form id='login-form' class="mui-input-group" style="width: 65%;height: auto; background-image: url(images/注册－输入框.png);    background-size: 100% 100%">
+				<div class="mui-input-row">
+					<label>
+					<p style="text-align: center;">
+					<img src="images/icon-id.png"  style="width: 23px;height: 25px;"/>
+				</p>	
+					</label>
+					<input id='account' type="text1"  style="padding-top: -56px;" placeholder="学号／工号"></input>
+				</div>
+				<div class="mui-input-row">
+					<label>
+					<p style="text-align: center;">
+					<img src="images/icon-Partybranch.png"  style="width: 25px;height: 23px;"/>
+				</p>	
+					</label>
+					<select style="color: #8F8F94;padding-top: 10px;" onchange=changecolor() id="szdzb">
+						<option value="">所在党支部</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+					</select>
+				</div>
+				<div class="mui-input-row">
+					<label>
+						<p style="text-align: center;">
+					<img src="images/icon-password.png"  width="23" height="23"/>
+				</p>	
+					</label>
+					<input id='password1' type="password1" class="mui-input-clear mui-input" placeholder="密码">
+				</div>
+				
+				<div class="mui-input-row">
+					<label>
+						<p style="text-align: center;">
+					<img src="images/icon-password.png"  width="23" height="23"/>
+				</p>	
+					</label>
+					<input id='password2' type="password1" class="mui-input-clear mui-input" placeholder="确认密码">
+				</div>
+			</form>
+			</div>
+			<div class="mui-content-padded" style="padding-top: 10px;">
+				<button id='login' class="mui-btn mui-btn-block mui-btn-primary" style="width: 65%;height: 56px;">注册</button>
+			</div>
+			<div class="mui-content-padded oauth-area">
+
+			</div>
+		</div>
+	</body>
+
+</html>

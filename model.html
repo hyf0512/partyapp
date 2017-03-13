@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+	</head>
+<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			function changepage(){
+				window.location.href="book.html";
+			}
+			function changeicon(icon){
+				if(icon==1){
+					document.getElementById("student").src="images/icon-student.png";
+					document.getElementById("teacher").src="images/icon-teacher-dwn.png";
+				}
+				else if(icon==2){
+					document.getElementById("teacher").src="images/icon-teacher.png";
+					document.getElementById("student").src="images/icon-student-dwn.png";
+				}
+			}
+		</script>
+	<body>
+		<header>
+				
+	
+		<a href="search.html" class="mui-icon mui-icon-search mui-pull-right" style="padding-top: 10px;margin-right: 10px;"></a>
+		</header><div class="mui-div red">
+			<p style="padding-top: 80px;">
+			<table width="100%"><tr>
+                <td width="50%" align="center" align="bottom"><img src="images/icon-teacher-dwn.png" style="width: 50px;" border=0 onclick="javascript:changeicon(1)" id="teacher"></td>
+                <td width="50%" align="center"><img src="images/icon-student.png"style="width: 50px;" border=0 onclick="javascript:changeicon(2)" id="student"></td>
+            </tr>
+			<tr>
+				<td align="center"><p style="color: white;">先锋教师</p></td>
+				<td align="center"><p style="color: white;">优秀学子</p></td>
+			</tr></table></p>
+		</div>
+		
+		<div style="padding-top: 20px;padding-left: 8px;vertical-align:middle;" onclick="javascript:changepage()">
+			<img src="images/book1.png" class="cover1" />
+			<p style="color:#6D6D72;padding-left: 110px;margin-top: -88px;font-size: 18px;">某某某教授</p>
+			<p style="color:#6D6D72;padding-left: 110px;margin-top: 40px;font-size: 12px;">上传时间：2016年6月12日</p>
+			<p style="color:#6D6D72;padding-left: 80px;margin-top: -30px;font-size: 12px;text-align: right;"><span style="background-color: #DDDDDD;border-radius: 5px;">&nbsp;&nbsp;阅读量：288&nbsp;&nbsp;</span></p>
+			<hr style="border:1px #DDDDDD solid;width:100%;"></hr>
+		</div>
+		<div style="padding-top: 15px;padding-left: 8px;vertical-align:middle;" onclick="javascript:changepage()">
+			<img src="images/book1.png" class="cover1" />
+			<p style="color:#6D6D72;padding-left: 110px;margin-top: -88px;font-size: 18px;">某某某教授</p>
+			<p style="color:#6D6D72;padding-left: 110px;margin-top: 40px;font-size: 12px;">上传时间：2016年6月12日</p>
+			<p style="color:#6D6D72;padding-left: 80px;margin-top: -30px;font-size: 12px;text-align: right;"><span style="background-color: #DDDDDD;border-radius: 5px;">&nbsp;&nbsp;阅读量：288&nbsp;&nbsp;</span></p>
+			<hr style="border:1px #DDDDDD solid;width:100%;"></hr>
+		</div>
+		<p align="center" style="margin-top: -419px;"><img src="images/header.png" height="20px" style="margin-left: -34px;"/></p>
+	<style>
+#nav { width:20px;height:20px;border-radius:20px; position:fixed;right:40px;bottom:20% }
+</style>
+<div id="nav">
+	<a href="890robot.html"><img src="images/icon-890.png" width="50px" />
+</a></div>
+	
+	
+		<nav class="mui-bar mui-bar-tab">
+			<table width="100%" style="margin-top: 10px;">
+				<tr>
+                <td width="20%" align="center" align="bottom">
+                	<a href="promote.html"><img src="images/promote.png" style="width: 24px;" border=0>
+                	<p style="color: #EE3C3F;font-size: 12px;">红色政宣</p>
+                	</a></td>
+                <td width="20%" align="center">
+                	<img src="images/model-dwn.png"style="width: 23px;" border=0>
+                	<p style="color: #EE3C3F;font-size: 12px;">红色典型</p>                		
+                	</td>
+                <td width="20%" align="center">
+                	<a href="study.html"><img src="images/study.png"style="width: 23px;" border=0>
+                	<p style="color: #EE3C3F;font-size: 12px;">红色学习</p>
+             	</a></td>
+                <td width="20%" align="center">
+                	<a href="service.html"><img src="images/service.png"style="width: 23px;" border=0>
+                	<p style="color: #EE3C3F;font-size: 12px;">红色服务</p>
+                </a></td>
+                <td width="17%" align="center">
+                	<a href="me.html"><img src="images/user.png"style="width: 23px;" border=0>
+                	<p style="color: #EE3C3F;font-size: 12px;">我</p>
+                	</a></td>
+				</tr>
+			</table>
+		</nav>
+
+	</body>
+
+</html>

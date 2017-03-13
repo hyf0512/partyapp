@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+		
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+			function changeimg() {
+				var emotions = ['icon-good.png', 'icon-good-dwn.png', 'images/']
+				imgsrc = document.getElementById("good")
+				imgsrc.src = emotions[2] + emotions[arguments.callee.em ^= 1];
+			}
+		</script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav" style="background-color: white;">
+		<a class="mui-action-back mui-icon mui-icon-back1"></a>
+		<h1 class="mui-title" style="color: black;">跟帖</h1>
+		</header>
+		<div style="padding-top: 60px;padding-left: 10px;vertical-align:middle;">
+			<img src="images/post-head.png" class=to></img>
+			<a class="mui-pull-right"><img src="images/icon-good.png" style="width: 24px;margin-right: 10px;" onclick="changeimg()" id="good"/><p style="margin-top: -22px;margin-left: -33px;font-size: 13px;">360</p></a>
+			<p style="color: #EE3C3F;padding-left: 50px;margin-top: -35px;font-size: 15px;">学生第一党支部</p>
+		    <p style="color: #AAAAAA;padding-left: 50px;margin-top: -5px;font-size: 13px;">发布于4小时前</p>
+		    <p style="padding-left: 50px;">我志愿加入中国共产党，遵循党的纲领我志愿加入中国共产党，遵循党的纲领我志愿加入中国共产党，遵循党的纲领</p>
+		<hr style="border:1px #DDDDDD solid;width:100%;"></hr>
+		</div>
+		<div style="position:fixed;bottom:0;background-color: white;width:100%;">
+			<div  class="mui-input-row1" style="position: ;width: 100%;padding-top: 15px;">
+						<input type="text" placeholder="写跟帖" style="font-size: 16px;width: 80%;margin-left: 10%;padding-left: 40px;margin-bottom: 60px;background-color: #EFEFF4;border: 0;border-radius:5px;"></input>
+						<div style="margin-top: -88px;margin-bottom: 20px;">
+							<img src="images/Attachment.png" style="width: 15px;margin-left: 13%;" />
+						</div>
+						<div style="margin-top: -42px;margin-bottom: 12px;">
+							<img src="images/sent icon.png" style="width: 24px;margin-left: 83%;" />
+						</div>
+					</div></div>
+		
+	    
+		</div>
+		
+		
+		
+	</body>
+
+</html>

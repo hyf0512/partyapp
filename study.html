@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+	</head>
+	<script src="js/mui.min.js"></script>
+	<script type="text/javascript">
+		mui.init()
+
+		function changepage() {
+			window.location.href = "book.html";
+		}
+		function changeicon(icon){
+			if(icon==1){
+					document.getElementById("coursware").src="images/icon-courseware.png";
+					document.getElementById("share").src="images/icon-share.png";
+					document.getElementById("house").src="images/icon-house-dwn.png";
+				}
+				else if(icon==2){
+					document.getElementById("coursware").src="images/icon-coursware-dwn.png";
+					document.getElementById("share").src="images/icon-share.png";
+					document.getElementById("house").src="images/icon-house.png";
+				}
+				else if(icon==3){
+					document.getElementById("coursware").src="images/icon-courseware.png";
+					document.getElementById("share").src="images/icon-share-dwn.png";
+					document.getElementById("house").src="images/icon-house.png";
+				}
+		}
+	</script>
+	<script type="text/javascript">
+		function imgclick() {
+			var emotions = ['icon-store.png', 'icon-store-dwn.png', 'images/']
+			imgsrc = document.getElementById("pic")
+			imgsrc.src = emotions[2] + emotions[arguments.callee.em ^= 1];
+		}
+	</script>
+
+	<body>
+		<header>
+			<a href="search.html" class="mui-icon mui-icon-search mui-pull-right" style="padding-top: 10px;margin-right: 10px;"></a>
+		</header>
+		<div class="mui-div red">
+			<p style="padding-top: 80px;">
+				<table width="100%">
+					<tr>
+						<td width="35%" align="center" align="bottom"><img src="images/icon-house-dwn.png" style="width: 50px;" border=0 onclick="changeicon(1)" id="house"></td>
+						<td width="35%" align="center"><img src="images/icon-courseware.png" style="width: 50px;" border=0 onclick="changeicon(2)" id="coursware"></td>
+						<td width="35%" align="center"><img src="images/icon-share.png" style="width: 50px;" border=0 onclick="changeicon(3)" id="share"></td>
+					</tr>
+					<tr>
+						<td align="center">
+							<p style="color: white;font-size: 12px;">红色书屋</p>
+						</td>
+						<td align="center">
+							<p style="color: white;font-size: 12px;">电子课件</p>
+						</td>
+						<td align="center">
+							<p style="color: white;font-size: 12px;">心得共享</p>
+						</td>
+					</tr>
+				</table>
+			</p>
+		</div>
+		<p align="center" style="margin-top: -185px;"><img src="images/header.png" height="20px" /></p>
+		<div style="background-color: #EEEEEE;height: 130px;margin-top: 150px;box-shadow: 0 1px 6px #ccc;">
+			<p style="color: #EE3C3F;width: 20px;padding-top: 20px;margin-left: 15px;line-height: 18px;font-size: 16px;">阅读榜单</p>
+			<div class="inimg">
+				<table>
+					<tr>
+						<td width="35%" align="center" align="bottom"> <img src="images/book-baowei.jpg" alt="img">
+							</>
+							<p style="margin-top: 0px;padding-left: 50%;">保卫延安</p>
+						</td>
+						<td width="35%" align="center"><img src="images/book-hongqipu.jpeg" alt="img" />
+							<p style="margin-top: 0px;padding-left: 50%;">红旗谱</p>
+						</td>
+						<td width="35%" align="center"><img src="images/book-qingchun.jpeg" alt="img" />
+							<p style="margin-top: 0px;padding-left: 50%;">青春之歌</p>
+						</td>
+						<td width="35%" align="center"><img src="images/book-hongyan.jpeg" alt="img" />
+							<p style="margin-top: 0px;padding-left: 50%;">红岩</p>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div style="padding-top: 10px;padding-left: 8px;vertical-align:middle;">
+			<img src="images/book-hongyan.jpeg" class=cover />
+			<div style="color:#6D6D72;padding-left: 80px;margin-top: -88px;padding-right: 10px;margin-bottom: 30px;" onclick="javascript:changepage()">
+				<p style="font-size: 18px;">红岩</p>
+				<p style="font-size: 12px;margin-left: 60px;margin-top: -30px;">杨益言&nbsp;&nbsp;著</p>
+				<p style="color:#6D6D72;font-size: 12px;">该书讲述了1948年在国民党的统治下，处于黎明前最黑暗该书讲述了1948年在国民党的统治下，处于黎明前最黑暗</p>
+			</div>
+			<div style="padding-left: 80px;margin-top: -30px;">
+				<p style="color:#6D6D72;font-size: 12px;text-align: right;"><span style="background-color: #DDDDDD;border-radius: 5px;">&nbsp;&nbsp;阅读量：288&nbsp;&nbsp;</span></p>
+				<div style="padding-right: 100px;margin-top: -40px;margin-bottom: 57px;">
+					<a class=" mui-pull-right"><img id="pic" src="images/icon-store.png" style="width: 22px;padding-top: 12px;" onclick="imgclick();" /></a>
+					<span></span>
+					<a class="mui-pull-right"><img src="images/icon-download.png" style="width: 22px;padding-top: 12px;margin-right: 15px;" /></a>
+				</div>
+			</div>
+			<hr style="border:1px #DDDDDD solid;width:100%;"></hr>
+		</div>
+
+		<style>
+			#nav {
+				width: 20px;
+				height: 20px;
+				border-radius: 20px;
+				position: fixed;
+				right: 40px;
+				bottom: 20%
+			}
+		</style>
+		<div id="nav">
+			<a href="890robot.html"><img src="images/icon-890.png" width="50px" />
+			</a>
+		</div>
+
+		<nav class="mui-bar mui-bar-tab">
+			<table width="100%" style="margin-top: 10px;">
+				<tr>
+					<td width="20%" align="center" align="bottom">
+						<a href="promote.html"><img src="images/promote.png" style="width: 24px;" border=0>
+							<p style="color: #EE3C3F;font-size: 12px;">红色政宣</p>
+						</a>
+					</td>
+					<td width="20%" align="center">
+						<a href="model.html"><img src="images/model.png" style="width: 23px;" border=0>
+							<p style="color: #EE3C3F;font-size: 12px;">红色典型</p>
+						</a>
+					</td>
+					<td width="20%" align="center"><img src="images/study-dwn.png" style="width: 23px;" border=0>
+						<p style="color: #EE3C3F;font-size: 12px;">红色学习</p>
+					</td>
+					<td width="20%" align="center">
+						<a href="service.html"><img src="images/service.png" style="width: 23px;" border=0>
+							<p style="color: #EE3C3F;font-size: 12px;">红色服务</p>
+						</a>
+					</td>
+					<td width="17%" align="center">
+						<a href="me.html"><img src="images/user.png" style="width: 23px;" border=0>
+							<p style="color: #EE3C3F;font-size: 12px;">我</p>
+						</a>
+					</td>
+				</tr>
+			</table>
+		</nav>
+	</body>
+
+</html>

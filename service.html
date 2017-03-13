@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+	</head>
+	<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+		mui.init()
+		var hischangeicon = 1;
+			function change(i){
+				if(i==1){
+				var a=document.getElementById("icon1");
+				a.style.display="none";
+				document.getElementById("service2").style.marginTop="-94px";
+				document.getElementById("icon2").style.display="block";
+				}
+				else{
+				var a=document.getElementById("icon1");
+				a.style.display="block";
+				document.getElementById("service2").style.marginTop="-500px";
+				document.getElementById("icon2").style.display="none";
+				}
+			}
+			function returnicon(i){
+				if(i==1){
+					document.getElementById("bus").src="images/icon-bus.png";
+				}
+				else if(i==2){
+					document.getElementById("calendar").src="images/icon-schoolcalendar.png";
+				}
+				else if(i==3){
+					document.getElementById("jiaowu").src="images/icon-jiaowu.png";
+				}
+				else if(i==4){
+					document.getElementById("index").src="images/icon-index.png";
+				}
+				else if(i==5){
+					document.getElementById("institution").src="images/icon-institution.png";
+				}
+				else if(i==6){
+					document.getElementById("flow").src="images/flow.png";
+				}
+			}
+			function changeicon(icon){
+				if(icon==1){
+					returnicon(hischangeicon);
+					document.getElementById("bus").src="images/icon-bus-dwn.png";
+					hischangeicon=icon;
+				}
+				else if(icon==2){
+					returnicon(hischangeicon);
+					document.getElementById("calendar").src="images/icon-schoolcalendar-dwn.png";
+					hischangeicon=icon;
+				}
+				else if(icon==3){
+					returnicon(hischangeicon);
+					document.getElementById("jiaowu").src="images/icon-jiaowu-dwn.png";
+					hischangeicon=icon;
+				}
+				else if(icon==4){
+					returnicon(hischangeicon);
+					document.getElementById("index").src="images/icon-index-dwn.png";
+					hischangeicon=icon;
+				}
+				else if(icon==5){
+					returnicon(hischangeicon);
+					document.getElementById("institution").src="images/icon-institution-dwn.png";
+					hischangeicon=icon;
+				}
+				else if(icon==6){
+					returnicon(hischangeicon);
+					document.getElementById("flow").src="images/flow-dwn.png";
+					hischangeicon=icon;
+				}
+			}
+		</script>
+	<body>
+			<header>
+		<a href="search.html" class="mui-icon mui-icon-search mui-pull-right" style="padding-top: 10px;margin-right: 10px;"></a>
+		</header><div class="mui-div red">
+			<p style="padding-top: 80px;">
+			<table width="100%"><tr>
+                <td width="35%" align="center" align="bottom"><img src="images/icon-bus-dwn.png" style="width: 50px;" border=0 onclick="changeicon(1)" id="bus"></td>
+                <td width="25%" align="center"><img src="images/icon-schoolcalendar.png"style="width: 50px;" border=0 onclick="changeicon(2)" id="calendar"></td>
+                <td width="35%" align="center"><img src="images/icon-jiaowu.png"style="width: 50px;" border=0 onclick="changeicon(3)" id="jiaowu"></td> 
+			</tr>
+			<tr>
+				<td align="center"><p style="color: white;font-size: 12px;">班车查询</p></td>
+				<td align="center"><p style="color: white;font-size: 12px;">学年校历</p></td>
+				<td align="center"><p style="color: white;font-size: 12px;">原创教务</p></td>
+			</tr></table></p>
+		</div><p align="center" style="margin-top: -185px;"><img src="images/header.png" height="20px"/></p>
+<div style="margin-top: 125px;">
+    <div class="mui-table-view-cell mui-collapse" style="padding-top: 6px;" id="icon1" onclick="javascript:change(1);">
+<img src="images/down.png" style="width: 11px;margin-left: 49%;"/>
+</div>
+<div class="mui-div red" style="margin-top: -500px;" id="service2" >
+			<p style="padding-top: 100px;">
+			<table width="100%"><tr>
+                <td width="35%" align="center" align="bottom"><img src="images/icon-index.png" style="width: 50px;" border=0 onclick="changeicon(4)" id="index"></td>
+                <td width="25%" align="center"><img src="images/icon-institution.png"style="width: 50px;" border=0 onclick="changeicon(5)" id="institution"></td>
+                <td width="35%" align="center"><img src="images/flow.png"style="width: 50px;" border=0 onclick="changeicon(6)" id="flow"></td> 
+			</tr>
+			<tr>
+				<td align="center"><p style="color: white;font-size: 12px;">办事指南</p></td>
+				<td align="center"><p style="color: white;font-size: 12px;">研究机构</p></td>
+				<td align="center"><p style="color: white;font-size: 12px;">入党流程</p></td>
+			</tr></table></p> 
+		</div>
+	<div style="padding-top: -100px;background-color: #EE3C3F;display: none; margin-top: -24px;" id="icon2">
+    		<img src="images/up.png" style="width: 11px;margin-left: 49%;" onclick="javascript:change(2);"/>
+		</div>
+		
+	<style>
+#nav { width:20px;height:20px;border-radius:20px; position:fixed;right:40px;bottom:20% }
+</style>
+<div id="nav">
+	<a href="890robot.html"><img src="images/icon-890.png" width="50px" />
+</a></div>	
+		
+		<nav class="mui-bar mui-bar-tab">
+			<table width="100%" style="margin-top: 10px;">
+				<tr>
+                <td width="20%" align="center" align="bottom"><a href="promote.html"><img src="images/promote.png" style="width: 24px;" border=0><p style="color: #EE3C3F;font-size: 12px;">红色政宣</p></a></td>
+                <td width="20%" align="center"><a href="model.html"><img src="images/model.png"style="width: 23px;" border=0><p style="color: #EE3C3F;font-size: 12px;">红色典型</p></a></td>
+                <td width="20%" align="center"><a href="study.html"><img src="images/study.png"style="width: 23px;" border=0><p style="color: #EE3C3F;font-size: 12px;">红色学习</p></a></td>
+                <td width="20%" align="center"><img src="images/service-dwn.png"style="width: 23px;" border=0><p style="color: #EE3C3F;font-size: 12px;">红色服务</p></td>
+                <td width="17%" align="center"><a href="me.html"><img src="images/user.png"style="width: 23px;" border=0><p style="color: #EE3C3F;font-size: 12px;">我</p></a></td>
+				</tr>
+			</table>
+		</nav>
+	</body>
+
+</html>

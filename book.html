@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link href="css/mui.css" rel="stylesheet" />
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<script type="text/javascript">
+			function imgclick() {
+				var emotions = ['icon-store.png', 'icon-store-dwn.png', 'images/']
+				imgsrc = document.getElementById("pic")
+				imgsrc.src = emotions[2] + emotions[arguments.callee.em ^= 1];
+			}
+		</script>
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav" style="background-color: white;">
+			<a class="mui-action-back mui-icon mui-icon-back1"></a>
+			<a class=" mui-pull-right"><img id="pic" src="images/icon-store.png " style="width: 22px;padding-top: 12px;" onclick="imgclick()" /></a>
+			<span></span>
+			<a class="mui-pull-right"><img src="images/icon-download.png" style="width: 22px;padding-top: 12px;margin-right: 15px;" /></a>
+			<h1 class="mui-title" style="color: black;">红岩</h1>
+		</header>
+	</body>
+
+</html>
